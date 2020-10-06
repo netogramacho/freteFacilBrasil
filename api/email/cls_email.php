@@ -19,7 +19,7 @@ Class Cls_email {
             $mail->SMTPAuth   = false;                                  
             $mail->Username   = 'contato@fretefacilbrasil.com.br';                    
             $mail->Password   = '!2020contatoFFB';                            
-            $mail->Port       = 465;         
+            $mail->Port       = 587;         
             $mail->CharSet    = 'UTF-8';
             //PERSONALIZACAO DO REMETENTE 
             $mail->setFrom('contato@fretefacilbrasil.com.br', 'Frete Fácil Brasil');                      
