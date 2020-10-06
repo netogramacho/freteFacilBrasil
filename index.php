@@ -23,7 +23,7 @@
     <!-- SEO Geral -->
     <title>Frete Para Manaus | FAÇA COTAÇÃO ONLINE E GRÁTIS</title>
     <meta name="description" content="Faça uma cotação de frete para manaus online e grátis ou fale diretamente conosco. Confira nossas opções de fretes de cargas com o melhor preço e segurança.">
-    <link rel="canonical" href="https://manausfrete.com.br/">
+    <link rel="canonical" href="https://fretefacilbrasil.com.br/">
     <meta name="author" content="Neto Gramacho | NG Developments">
     <meta name="robots" content="index, nofollow">
 
@@ -34,7 +34,7 @@
     <!-- Facebook -->
     <meta property="og:title" content="Frete Para Manaus | FAÇA COTAÇÃO ONLINE E GRÁTIS">
     <meta property="og:description" content="Faça uma cotação de frete para manaus online e grátis ou fale diretamente conosco. Confira nossas opções de fretes de cargas com o melhor preço e segurança.">
-    <meta property="og:url" content="https://manausfrete.com.br/">
+    <meta property="og:url" content="https://fretefacilbrasil.com.br/">
     <meta property="og:site_name" content="Frete Para Manaus | FAÇA COTAÇÃO ONLINE E GRÁTIS">
     <meta property="og:type" content="Website">
 

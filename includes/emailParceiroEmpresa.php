@@ -55,7 +55,7 @@
 
         //EMAIL CLIENTE
 
-        $corpoEmail = file_get_contents(".." . DIRECTORY_SEPARATOR . "assets" . DIRECTORY_SEPARATOR . "emails" . DIRECTORY_SEPARATOR . "contatoCliente.html");
+        $corpoEmail = file_get_contents(".." . DIRECTORY_SEPARATOR . "assets" . DIRECTORY_SEPARATOR . "emails" . DIRECTORY_SEPARATOR . "retornoParceiros.html");
         
         
         $enderecos = array();
