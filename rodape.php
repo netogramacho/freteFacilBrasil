@@ -1,7 +1,7 @@
 <div class="rodape">
     <div class="container-fluid">
         <div>
-            <div data-aos="fade-right" class="mov-aos">
+            <div>
                 <h4>
                     FRETE FACIL MANAUS
                 </h4>
@@ -9,24 +9,14 @@
                     FAÇA SUA COTAÇÃO GRÁTIS
                 </h5>   
             </div>
-            <div data-aos="fade-left" class="mov-aos">
+            <div>
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-12">
                                 <p>
-                                    comercial@triunfocabotagem.com.br
-                                </p>
-                            </div>
-                            <div class="col-md-4">
-                                <p>
-                                    operacional@triunfocabotagem.com.br
-                                </p>
-                            </div>
-                            <div class="col-md-4">
-                                <p>
-                                    triunfocabotagem@gmail.com
+                                    brasilfretefacil@gmail.com
                                 </p>
                             </div>
                         </div>

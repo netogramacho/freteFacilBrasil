@@ -3,10 +3,22 @@ $(document).ready(function () {
     iniciarMascara();
     iniciarRodape();
     AOS.init();
-    $('img').Lazy()
+    $('img').Lazy();
+    carrosel();
 });
 var phone = '5519988700830';
 var DIRETORIO = "includes/";
+
+function carrosel() {
+    $('.first-item').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+    });
+}
+
 
 
 function iniciarComponetes() {
@@ -137,10 +149,14 @@ function iniciarComponetes() {
     });
 
     $('#inicio, #princpal_servicos').css('min-height', (window.innerHeight - parseInt($('#menu').css('height'))));
-    
-    if (screen.width < 640 || screen.height < 480) {
-        $('.mov-aos').attr('data-aos', 'fade');
-    }
+
+
+    // ABRIR RESPOSTAS SOBRE NOS
+
+    $(".plus").on("click", function(){
+        $(this).parent().parent().find(".answer").slideToggle();
+    });
+
 }
 
 var objEmail = {
@@ -220,49 +236,49 @@ function scrollToQuemSomos(){
 
 
 
-//ANIMACAO DE BOTOES ESTATICOS PARA O CENTRO
-function exibirContato(){
-    $('body').css('overflow', 'hidden');
-    $('.fundoContato').fadeIn('fast');
-    $('.staticWpp').addClass('staticWppAnimation');
-    $('.staticWpp').removeClass('staticWppAnimationVolta');
-    $('.staticWpp').removeClass('staticWppPosOne');
-    $('.staticWpp').addClass('staticWppPosTwo');
+// //ANIMACAO DE BOTOES ESTATICOS PARA O CENTRO
+// function exibirContato(){
+//     $('body').css('overflow', 'hidden');
+//     $('.fundoContato').fadeIn('fast');
+//     $('.staticWpp').addClass('staticWppAnimation');
+//     $('.staticWpp').removeClass('staticWppAnimationVolta');
+//     $('.staticWpp').removeClass('staticWppPosOne');
+//     $('.staticWpp').addClass('staticWppPosTwo');
 
 
-    $('.staticEmail').addClass('staticEmailAnimation');
-    $('.staticEmail').removeClass('staticEmailAnimationVolta');
-    $('.staticEmail').removeClass('staticEmailPosOne');
-    $('.staticEmail').addClass('staticEmailPosTwo');
+//     $('.staticEmail').addClass('staticEmailAnimation');
+//     $('.staticEmail').removeClass('staticEmailAnimationVolta');
+//     $('.staticEmail').removeClass('staticEmailPosOne');
+//     $('.staticEmail').addClass('staticEmailPosTwo');
 
 
-    $('.staticEmail').addClass('voltarAnimacao');
-    $('.staticWpp').addClass('voltarAnimacao');
-}
+//     $('.staticEmail').addClass('voltarAnimacao');
+//     $('.staticWpp').addClass('voltarAnimacao');
+// }
 
-//ANIMACAO DE BOTOES ESTATICOS PARA A POSICAO ORIGINAL
-function voltaAnimacaoContato(){
-    $('body').css('overflow', '');
-    $('.fundoContato').fadeOut('fast');
-    if ($('.staticWpp').hasClass('voltarAnimacao')) {
-        $('.staticWpp').addClass('staticWppAnimationVolta');
-        $('.staticWpp').removeClass('staticWppAnimation');
-        $('.staticWpp').removeClass('staticWppPosTwo');
-        $('.staticWpp').addClass('staticWppPosOne');
-    }
-
-
-    if ($('.staticEmail').hasClass('voltarAnimacao')) {   
-        $('.staticEmail').addClass('staticEmailAnimationVolta');
-        $('.staticEmail').removeClass('staticEmailAnimation');
-        $('.staticEmail').removeClass('staticEmailPosTwo');
-        $('.staticEmail').addClass('staticEmailPosOne');
-    }
+// //ANIMACAO DE BOTOES ESTATICOS PARA A POSICAO ORIGINAL
+// function voltaAnimacaoContato(){
+//     $('body').css('overflow', '');
+//     $('.fundoContato').fadeOut('fast');
+//     if ($('.staticWpp').hasClass('voltarAnimacao')) {
+//         $('.staticWpp').addClass('staticWppAnimationVolta');
+//         $('.staticWpp').removeClass('staticWppAnimation');
+//         $('.staticWpp').removeClass('staticWppPosTwo');
+//         $('.staticWpp').addClass('staticWppPosOne');
+//     }
 
 
-    $('.staticEmail').removeClass('voltarAnimacao');
-    $('.staticWpp').removeClass('voltarAnimacao');
-}
+//     if ($('.staticEmail').hasClass('voltarAnimacao')) {   
+//         $('.staticEmail').addClass('staticEmailAnimationVolta');
+//         $('.staticEmail').removeClass('staticEmailAnimation');
+//         $('.staticEmail').removeClass('staticEmailPosTwo');
+//         $('.staticEmail').addClass('staticEmailPosOne');
+//     }
+
+
+//     $('.staticEmail').removeClass('voltarAnimacao');
+//     $('.staticWpp').removeClass('voltarAnimacao');
+// }
 
 
 //DEFINE UM TAMANHO MINIMO PARA O CORPO DO SITE

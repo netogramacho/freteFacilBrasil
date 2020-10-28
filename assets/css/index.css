@@ -75,7 +75,7 @@ a:hover{
 
 #menu {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0px;
   width: 100%;
   height: 70px;
@@ -130,12 +130,11 @@ display: flex;
 flex-wrap: wrap
 }
 .logos .logo{
-  background-size: cover !important;
   width: 100%;
 }
-.logos .logo img {
-  margin: auto;
+.logos .logo img { 
   width: 100%;
+  margin: auto;
 }
 
 /* BOTÕES */
@@ -159,7 +158,12 @@ flex-wrap: wrap
 .titulo-principal{
   position: absolute;
   top: 15%;
-  width: 100%;
+  width: 60%;
+  margin-left: 20%;
+  z-index: 1;
+  border-radius: 10px;
+  background-color: #ffffff9c;
+  padding: 10px 0;
 }
 .titulo-principal h1 {
   font-size: 28px;
@@ -738,7 +742,6 @@ flex-wrap: wrap
 }
 
 .div_check {
-  width: max-content;
   margin: 0;
   display: inline;
 }
@@ -834,7 +837,7 @@ flex-wrap: wrap
   .navbar ul li {
     position: relative;
     float: right;
-    width: 33.3%;
+    width: 50%;
     text-align: center;
     background-color: #223e5b;
   }
@@ -908,7 +911,14 @@ flex-wrap: wrap
     margin: 0 35%;
     width: 30%;
   }
+
+  .item-img img {
+    max-width: 300px;
+  }
 }
+
+
+
 .text-center {
   text-align: center;
 }
@@ -938,7 +948,46 @@ flex-wrap: wrap
   color: #000;
 }
 
+/* SOBRE NOS */
 
+.perguntas {
+  transition: all .2s linear!important;
+  box-shadow: 0 0 10px 0 #32323233;
+  margin: 20px 0;
+  padding: 20px 0 50px;
+}
+
+.perguntas h1 {
+  color: #223e5bad;
+  width: 100%;
+  text-align: center;
+}
+
+.quest {
+  color: #223e5bad;
+  border: 1px solid #223e5bad;
+  border-radius: 10px;
+  font-size: 21px;
+  margin-top: 20px;
+}
+
+.answer {
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 5px;
+  display: none;
+}
+
+.quest-title {
+  font-weight: bold;
+}
+
+.plus {
+  cursor: pointer;
+}
+.plus i, .p svg {
+  color: #223e5b;
+}
 
 /* ANIMACOES */
 @keyframes arrowToBottom {

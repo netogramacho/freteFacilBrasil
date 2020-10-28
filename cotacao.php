@@ -13,7 +13,7 @@
       </script>
 
         <meta charset="utf-8">
-        <title>Frete para Manaus</title>
+        <title>Frete Para Manaus e Brasil</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--[if IE]><link rel="shortcut icon" href="assets/images/favicon.ico"><![endif]-->
         <link rel="shortcut icon" href="assets/imagens/barco.ico" sizes="16x16">

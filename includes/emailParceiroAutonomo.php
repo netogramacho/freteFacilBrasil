@@ -39,9 +39,7 @@
     
         $enderecos = array(
             "triunfocabotagem@gmail.com",
-            "operacional@triunfocabotagem.com.br",
-            "comercial@triunfocabotagem.com.br",
-            "neto.paulo.po@gmail.com"
+            "brasilfretefacil@gmail.com"
         );
     
         $assunto = "Nova solicitação de parceria com Autônomo";

@@ -8,6 +8,7 @@
     <script src="assets/plugins/aos/aos.js"></script>
     <script src="assets/plugins/maskMoney/jquery.maskMoney.js"></script>
     <script type="text/javascript" src="assets/plugins/lazy/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/slick/slick.min.js"></script>
 
     <script src="assets/js/index.js"></script>
     <script src="assets/js/validators.js"></script>

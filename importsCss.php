@@ -5,3 +5,4 @@
     <link href="assets/plugins/fontawesome/css/all.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
     <link href="assets/plugins/aos/aos.css" rel="stylesheet">
+    <link href="assets/plugins/slick/slick.css" rel="stylesheet">

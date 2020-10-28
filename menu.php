@@ -9,17 +9,25 @@
     </div>
     <div class="col-md-6 padding-zero-mob">
         <ul class="d-xs-none menu_txt">
-            <li onclick="exibirContato()">
-                <span>Contato</span>
-            </li>
-            <li onclick="location.href='parceiro.php'">
-                <span>Seja um parceiro</span>
-            </li>
-            <li onclick="location.href='cotacao.php'">
-                <span>Cotação</span>
+            <li>
+                <a href="sobre_nos.php">
+                    <span>Sobre nós</span>
+                </a>
             </li>
             <li>
-                <a href="/"><span>Home</span></a>
+                <a href="parceiro.php">
+                    <span>Seja um parceiro</span>
+                </a>
+            </li>
+            <li>
+                <a href="cotacao.php">
+                    <span>Cotação</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.php">
+                    <span>Home</span>
+                </a>
             </li>
         </ul>
     </div>
